@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
 // The tutorial can be found just here on the SSaurel's Blog : 
 // https://www.ssaurel.com/blog/create-a-simple-http-web-server-in-java
 // Each Client Connection will be managed in a dedicated Thread
-public class JavaHTTPServer implements Runnable{ 
+class JavaHTTPServer implements Runnable{ 
 	
 	static final File WEB_ROOT = new File(".");
 	static final String DEFAULT_FILE = "index.html";
