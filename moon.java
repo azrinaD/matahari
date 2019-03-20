@@ -46,7 +46,7 @@ class JavaHTTPServer implements Runnable{
 				JavaHTTPServer myServer = new JavaHTTPServer(serverConnect.accept());
 				
 				if (verbose) {
-					System.out.println("Connecton opened. (" + new Date() + ")");
+					System.out.println("Hai there! Nice to meet you too. Have a nice day. (" + new Date() + ")");
 				}
 				
 				// create dedicated thread to manage the client connection
