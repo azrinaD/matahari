@@ -56,6 +56,6 @@ class GetServer
   
     public static void main(String args[]) 
     { 
-        GetServer server = new GetServer(2222); 
+        GetServer server = new GetServer(8080); 
     } 
 } 
