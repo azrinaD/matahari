@@ -20,7 +20,7 @@ class GetServer
             System.out.println("Hallo, nice to meet you!"); 
   
             socket = server.accept(); 
-            System.out.println("Client accepteddd"); 
+            System.out.println("\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\nClient accepted !!"); 
   
             // takes input from the client socket 
             in = new DataInputStream( 
